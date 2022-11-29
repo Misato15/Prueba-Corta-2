@@ -2,7 +2,7 @@ import {inject, lifeCycleObserver, LifeCycleObserver} from '@loopback/core';
 import {juggler} from '@loopback/repository';
 
 const config = {
-  name: 'rh_database',
+  name: 'conn',
   connector: 'mongodb',
   url: 'mongodb+srv://admin:taehyun@cluster0.irewiil.mongodb.net/candidatos',
   host: 'cluster0.irewiil.mongodb.net',
